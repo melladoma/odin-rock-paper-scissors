@@ -7,10 +7,22 @@
     <title>Rock paper scissors</title>
 </head>
 <body>
-<h1>Rock Paper Scissors Dev Tools Version</h1>
-<p>Open the console to see the game!</p>
-<p> F12 or Ctrl + Shift + J on Windows</p>
-<p>Cmd + Option + J on Mac</p>
+<h1>Rock Paper Scissors UI version</h1>
+<p>We currently play game in <span id="number">5</span> rounds</p>
+<div class="buttons">
+    <button class="button"id="Rock">Rock</button>
+    <button class="button"id="Paper">Paper</button>
+    <button class="button"id="Scissors">Scissors</button>
+
+    <button id="reset">Reset Game</button>
+<div>
+    <button id="round-up">&#8593</button>
+    <p>Change number of rounds</p>
+    <button id="round-down">&#8595</button>
+</div>
+</div>
+<div id="score"></div>
+<div id="result"></div>
     <script src="app.js"></script>
 </body>
 </html>
